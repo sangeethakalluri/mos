@@ -1,0 +1,255 @@
+.productTile {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+.productTile img {
+  width: 150px;
+  height: 150px;
+}
+.productTile .productName {
+  color: blue;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 150px;
+}
+.price {
+  color: black;
+}
+.arrow {
+  border: solid #ffffffb5;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.select-field {
+  border: none;
+  background: #495057;
+  color: #fff;
+  border-radius: 0;
+}
+.select-field:disabled {
+  background-color: #495057;
+  color: #fff;
+}
+.customise-btn {
+  background-color: #8e7329;
+  border-radius: 0;
+  /* padding: 15px; */
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+.custom-link,
+.custom-link:hover {
+  color: #8e7329 !important;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+.variationItem {
+  width: 80px;
+}
+.variation-img {
+  height: 100px;
+}
+.text-color-grey {
+  color: grey;
+}
+.delivery-options {
+  height: 98%;
+}
+hr.custom-hr {
+  border-top: 1px solid #191c24;
+}
+.home-btn {
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 25px;
+}
+.page-title {
+  font-size: 22px;
+}
+.newOrderLink {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 75px;
+  text-align: center;
+}
+.newOrder {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+.delivery-options {
+  height: 98%;
+}
+.payment-cash-icon {
+  width: 44px;
+}
+.payment-icons {
+  width: 25px;
+  height: 20px;
+}
+.creditcard {
+  background-color: #2a3038;
+  padding: 7px;
+}
+
+.btn-outline-white {
+  border: 1px solid #fff;
+  padding: 0.7rem 3rem;
+  border-radius: 0;
+}
+.osLabel {
+  line-height: 5px;
+}
+.paidText {
+  color: green;
+  font-size: 28px;
+  letter-spacing: 10px;
+  border: 1px solid;
+  padding-left: 10px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.rightPanel .borderLeft {
+  margin-left: 0px;
+  padding-left: 15px;
+}
+.totalPaidAmount {
+  color: green;
+  font-size: 28px;
+  font-weight: 700;
+}
+.changeDueAmount {
+  color: skyblue;
+  font-size: 28px;
+  font-weight: 700;
+}
+.checkMark {
+  border: 2px solid green;
+  border-radius: 12px;
+  background: green;
+  padding: 5px;
+}
+.variationType,
+.variationPrice {
+  font-weight: 600;
+  font-size: 16px;
+}
+.datePicker .MuiInputBase-root {
+  color: #fff;
+}
+.datePicker .MuiInputBase-input {
+  padding: 6px 5px 7px;
+  height: 1.876em;
+}
+.MuiPickersDatePickerRoot-toolbar.MuiPickersToolbar-toolbar {
+  background-color: #8e7329;
+  display: none;
+}
+
+.MuiPaper-root .MuiPickersDay-day.MuiPickersDay-daySelected {
+  background-color: #8e7329;
+}
+.MuiPaper-root.MuiPopover-paper {
+  background-color: #292e33;
+  border-radius: 15px;
+}
+.MuiPaper-root .MuiTypography-colorInherit,
+.MuiPaper-root .MuiPickersCalendarHeader-dayLabel,
+.MuiPaper-root .MuiTypography-root {
+  color: #fff;
+}
+.MuiPaper-root .MuiPickersDay-day {
+  background-color: #32393f;
+  border-radius: 20%;
+}
+.MuiPickersCalendarHeader-iconButton.MuiIconButton-root {
+  background-color: #292e33;
+}
+.MuiPaper-root .MuiPickersCalendar-week div {
+  padding: 1px;
+}
+.MuiPaper-root .MuiSvgIcon-root {
+  fill: #fff;
+}
+.MuiInput-underline::before,
+.MuiInput-underline::after {
+  display: none;
+}
+.orderSummaryTitle {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  display: flex;
+  color: #fff;
+}
+.icon {
+  width: 0.9rem;
+  height: 0.5rem;
+}
+.MuiBreadcrumbs-separator {
+  color: #fff;
+}
+.option-selection:focus {
+  background-color: #8e7329;
+}
+.w-100 {
+  width: 100%;
+}
+select.form-control {
+  color: #fff;
+}
+
+@media (max-width: 575px) {
+  .productTile img {
+    width: 260px;
+    height: 210px;
+  }
+}
+
+@media (max-width: 767px) {
+  .margintop-10 {
+    margin-top: 10px;
+  }
+  .viewGifts {
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .variation-img {
+    height: 65px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .variation-img {
+    width: 90px;
+    height: 100px;
+    padding: 10px;
+  }
+  .padding-0 {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .borderLeft {
+    border-left: 1px solid #2a3038;
+    padding-left: 30px;
+  }
+}

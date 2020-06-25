@@ -1,0 +1,1 @@
+This project is developed as a POC for Florist OS
